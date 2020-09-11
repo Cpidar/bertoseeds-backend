@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_product_keywords",
+  "info": {
+    "name": "keyword",
+    "icon": "key"
+  },
+  "options": {},
+  "attributes": {
+    "keyword": {
+      "type": "string"
+    }
+  }
+}

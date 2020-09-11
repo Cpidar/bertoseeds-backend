@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_names",
+  "info": {
+    "name": "name",
+    "icon": "mobile-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "showcases",
+  "info": {
+    "name": "showcase"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "published": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
